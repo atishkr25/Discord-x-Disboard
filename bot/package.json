@@ -1,0 +1,26 @@
+{
+    "name": "disboard-lite-bot",
+    "version": "1.0.0",
+    "description": "Discord bot for Disboard Lite",
+    "main": "dist/index.js",
+    "scripts": {
+        "start": "node dist/index.js",
+        "dev": "nodemon src/index.ts",
+        "build": "tsc",
+        "lint": "eslint src/**/*.ts"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "discord.js": "^14.14.1",
+        "dotenv": "^16.4.5",
+        "mongoose": "^8.2.0"
+    },
+    "devDependencies": {
+        "@types/node": "^20.11.24",
+        "nodemon": "^3.1.0",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.3.3"
+    }
+}
